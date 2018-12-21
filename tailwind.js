@@ -75,6 +75,8 @@ let colors = {
 
   'theme-wallet-new-selected': 'var(--theme-wallet-new-selected)',
   'theme-wallet-new-unselected': 'var(--theme-wallet-new-unselected)',
+  'theme-currency-selected': 'var(--theme-currency-selected)',
+  'theme-currency-unselected': 'var(--theme-currency-unselected)',
   'theme-wallet-sign-verify-message-text': 'var(--theme-wallet-sign-verify-message-text)',
 
   'theme-feature': 'var(--theme-feature)',

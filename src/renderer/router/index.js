@@ -51,6 +51,11 @@ const router = new Router({
       component: require('@/pages/Profile/ProfileAll').default
     },
     {
+      path: '/tec',
+      name: 'tec',
+      component: require('@/pages/Tec/TokenExchangeCampaign').default
+    },
+    {
       path: '/wallet/all',
       name: 'wallets',
       component: require('@/pages/Wallet/WalletAll').default

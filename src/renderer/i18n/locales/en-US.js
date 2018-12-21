@@ -180,6 +180,7 @@ export default {
 
   APP_SIDEMENU: {
     ANNOUNCEMENTS: 'Announcements',
+    TEC: 'Token Exchange Campaign',
     CONTACTS: 'My contacts',
     CURRENT_PROFILE: 'Your current profile is "{profileName}"',
     DASHBOARD: 'Dashboard',
@@ -485,6 +486,35 @@ export default {
           TEXT: 'Here you can choose the default theme (light or dark) and the background.'
         },
         TITLE: 'Wallet design'
+      }
+    },
+
+    TEC: {
+      WAITING: 'Waiting...',
+      PROCESSING: 'Processing request',
+      HEADER: 'Art Decenter Token Exchange Campaign',
+      STEP1: {
+        INSTRUCTIONS: {
+          HEADER: 'Token Exchange',
+          TEXT_BEFORE_BUTTON: 'Select one of these available cryptocurrencies. If you wish to update the current rate of exchange, click on the',
+          TEXT_AFTER_BUTTON: 'button to refresh the price.'
+        },
+        TITLE: '1. Choose Currency'
+      },
+      STEP2: {
+        INSTRUCTIONS: {
+          HEADER: 'Recipient Address',
+          TEXT: 'Please pick a wallet to receive AD tokens.'
+        },
+        TITLE: '2. Pick Wallet'
+      },
+      STEP3: {
+        INSTRUCTIONS: {
+          HEADER: 'Send Cryptocurrency',
+          TEXT_BEFORE_BUTTON: 'You may now carefully send',
+          TEXT_AFTER_BUTTON: 'to the provided address. It is permanently linked to your Art Decenter address.'
+        },
+        TITLE: '3. Submit'
       }
     },
 

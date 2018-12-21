@@ -52,6 +52,16 @@
             icon="whitepaper"
             @click="redirect($event)"
           />
+
+          <!-- Token Exchange -->
+          <MenuNavigationItem
+            id="tec"
+            :title="$t('APP_SIDEMENU.TEC')"
+            class="AppSidemenu__item"
+            :is-horizontal="isHorizontal"
+            icon="placeholder"
+            @click="redirect($event)"
+          />
         </div>
 
         <div class="flexify">
